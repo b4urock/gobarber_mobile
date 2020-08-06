@@ -5,7 +5,7 @@ import { useNavigation } from '@react-navigation/native';
 import { useAuth } from '../../context/AuthContext';
 import api from '../../services/api';
 
-//import { View, Button } from 'react-native';
+import {  Button } from 'react-native';
 
 import IProvider from '../../dtos/IProvider';
 
@@ -46,11 +46,13 @@ const Dashboard: React.FC = () => {
 		});
 	}, []);
 
+	//const { signOut } = useAuth();
 //	<Button title="Sair" onPress={signOut} />
 
 	return (
 		<Container>
 			<Header>
+			<Button title="Sair" onPress={signOut} />
 				<HeaderTitle>
 					Bem vindo, {"\n"}
 					<UserName>{user.name}</UserName>
