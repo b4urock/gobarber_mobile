@@ -13,12 +13,6 @@ GoBarber Mobile
   <a href="#funcionalities">Functionalities</a>
 </p>
 
-<div align="center">
-
-<img src="src/assets/example.gif" height="550"/>
-
-</div>
-
 This is the Mobile app version for barber appointment and scheduling. Service Providers must be included through the web application. Check it out here: _FrontEnd [repository](https://github.com/b4urock/gobarber_web)!_
 
 ## Features
@@ -63,7 +57,7 @@ iPhone Emulator
 
 > react-native run-ios
 
-## Funcionalities
+## Functionalities
 
 - User authentication
 - Show Schedule
